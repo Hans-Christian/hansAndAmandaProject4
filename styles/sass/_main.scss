@@ -1,0 +1,94 @@
+.recipesContainer{
+    width:calc(100% / 3);
+}
+
+html{
+    background-image:url(../assets/mainBackground.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+main{
+    min-height:100vh;
+}
+
+.hidden{
+    display:none;
+}
+
+button{
+    padding:0.5rem 1.3rem;
+    width:13rem;
+}
+
+.recipesContainer li{
+    margin:2rem 0.5rem;
+    padding:2rem;
+}
+
+li img{
+    margin:2rem 0;
+}
+
+.dishCountry {
+    margin-top:1rem;
+    font-style:italic;
+}
+
+h3,
+h4{
+    letter-spacing:0.4rem;
+}
+
+h3{
+    font-size: 5.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 span {
+    text-transform: capitalize;
+}
+
+.filter {
+    padding: 0 0.5rem;
+}
+
+.filterTitle {
+    font-size:2.6rem;
+    margin-bottom:1.5rem;
+    text-shadow: -0.5px -0.5px 0 white, 0.5px -0.5px 0 white, -0.5px 0.5px 0 white, 0.5px 0.5px 0 white;
+}
+
+h4{
+    font-size:3rem;
+    height:5rem;
+}
+
+.fa-book-reader,
+.fa-youtube {
+    font-size:2.5rem;
+    margin-right:0.4rem;
+}
+
+.recipeLinks{
+    justify-content: center;
+}
+
+.recipeLinks p:first-child {
+    margin-right:10px;
+}
+
+main{
+    padding:5rem 0;
+}
+
+.scrollUp {
+    display: block;
+    font-size: 4rem;
+    position: fixed;
+    margin: 3rem;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}

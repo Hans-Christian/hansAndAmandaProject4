@@ -1,0 +1,42 @@
+$primary:rgb(154, 52, 142);
+$secondary:rgb(218, 98, 125);
+$tertiary:rgb(252, 161, 125);
+$fourth:rgb(226,226,226);
+$fifth:rgb(13, 6, 40);
+
+.submit{
+    background-color:$secondary;
+    border:0.1rem $secondary;
+    color:$fifth;
+}
+
+body,
+a{
+    color:$fifth;
+}
+
+button{
+    background-color:$fifth;
+    color:$fourth;
+    border:0.1rem solid $fourth;
+}
+
+.recipesContainer li,
+.footer{
+    background-color:rgba(226,226,226,0.8);
+
+}
+
+.recipesContainer li{
+    border: 1rem solid $fifth;
+}
+
+.fa-globe {
+    color: rgb(34, 21, 88);
+    
+}
+
+.fa-youtube {
+    color: red;
+}
+
